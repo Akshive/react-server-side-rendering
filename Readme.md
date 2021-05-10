@@ -1,0 +1,3 @@
+- A basic server side rendered react app.
+- Use npm build to build the application.
+- Use npm start to start the local server, access the app at localhost:7777
