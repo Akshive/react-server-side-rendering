@@ -27,7 +27,6 @@ const app = new express();
 app.use(express.static("dist"));
 app.get("/vote/:answerId", (req, res) => {
   const { query, params } = req;
-  console.log(query, params);
   data.answers = handleModifyANswerVots(
     data.answers,
     params.answerId,
